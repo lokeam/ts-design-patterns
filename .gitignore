@@ -1,0 +1,19 @@
+# directories / dependencies
+.cache/
+dist/
+node_modules/
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# local env files
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# ide
+.vscode
