@@ -1,6 +1,7 @@
 # directories / dependencies
 .cache/
 dist/
+src/oop
 node_modules/
 
 # debug
@@ -11,6 +12,7 @@ yarn-error.*
 # local env files
 .env
 .env*.local
+.parcel-cache
 
 # typescript
 *.tsbuildinfo
