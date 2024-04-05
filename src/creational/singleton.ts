@@ -67,6 +67,13 @@ let logger2 = Logger.getInstance();
 logger2.log('This is the second message');
 
 /*
+  When to Consider:
+  * If using global variables that always need same value
+  * Objects with multiple access points with a single control
+  * Code includes repeated, expensive intialization of classes
+  * If cannot have duplicate instances of same class
+  * If you need to pass data to deeply nested objects/classes
+
   Singleton Advantages:
   + File Access Issues: Mitigates conflicts when writing to same file
   + Peformance: Optimizes resources by sharing the same file connection
