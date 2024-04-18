@@ -134,7 +134,7 @@ homeTheater.watchMovie('Top Gun', 10, 5);
   - Limited Flexibility: Facades limit access to full functionality of the subsystem
   - Hiding Useful Information: Encapsulation might hide beneficial subsystem behavior
 
-  Prototype Use Cases:
+  Facade Use Cases:
   * Ecommerce Systems: Simplifies client transactions with subsystems like inventory management, payment processing, shipping
   * Banking Systems: Handles operations like authentication, balance checks, transactions in a simplified manner
   * Game Engines: Provides simplified API to game devs, hiding complexities of underlying engine subsystems
